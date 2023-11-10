@@ -1,0 +1,523 @@
+/* Navbar */
+.Navbar{
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    padding: 20px 150px 20px 150px;
+}
+.Navbar__Logo{
+    width: 90px;
+    height: 30px;
+}
+.Navbar__Menu{
+    float: right;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 60px;
+}
+.Navbar__Menu-Item{
+    color: white;
+    font-size: 10pt;
+}
+.Navbar__Menu-Item:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+/* Header */
+.Header{
+    background-image: url('Images/Background__Header.jpg');
+    width: 100%;
+    height: auto;
+    padding-top: 70px;
+}
+.Header__Container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 150px 0 150px;
+    padding: 100px 0 100px 0;
+}
+.Header__Right-Container1{
+    color: white;
+    font-size: 30pt;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.Header__Right-Container2{
+    color: rgb(165, 165, 165);
+}
+.Line{
+    width: 70px;
+    border-bottom: 2px solid white;
+    margin: 30px 0 30px 0;
+}
+.Header__Right-Button{
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    margin-top: 30px;
+    padding: 7px 30px 7px 30px;
+    font-weight: 600;
+}
+.Header__Right-Button:hover{
+    background-color: #ff8b38;
+    border: 2px solid #ff8b38;
+}
+
+.Header__Left{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.Header__Form{
+    width: 65%;
+    background-color: white;
+    border-radius: 3px;
+}
+.Form__Title{
+    text-align: center;
+    font-size: 15pt;
+    font-weight: bold;
+    background-color: #f5f5f5;
+    padding: 7px 0 7px 0;
+    border-radius: 3px;
+}
+.Header__Input{
+    margin: 20px 40px 20px 40px;
+    
+}
+.Header__Input-Item{
+    border: none;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    width: 100%;
+    margin: 15px 0 15px 0;
+    font-size: 10pt;
+}
+.Header__Left-Button{
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: #ff8b38;
+    padding: 10px 0 10px 0;
+    font-size: 12pt;
+    border-radius: 3px;
+}
+.Header__Left-Button:hover{
+    opacity: 0.8;
+}
+
+/* Section1*/
+.Section1{
+    background-color: #f5f5f5;
+    width: 100%;
+    height: auto;
+}
+.Section1__Container{
+    display: grid;
+    grid-template-columns: 18% 35% 35%;
+    gap: 6%;
+    margin: 0 150px 0 150px;
+    padding: 150px 0 150px 0;
+}
+/*Column 1*/
+.Section1__Container-Col1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 70%;
+    height: auto;
+}
+.Container-Col1-Tab1{
+    border: none;
+    background-color: #333333;
+    color: white;
+    font-weight: 700;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+.Container-Col1-Tab2{
+    border: none;
+    background-color: #333333;
+    color: white;
+    font-weight: 700;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Container-Col1-Tab3{
+    border: none;
+    background-color: #333333;
+    color: white;
+    font-weight: 700;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+.Section1__Container-Col1 button:hover{
+    background-color: #ff8b38;
+    opacity: 0.9;
+}
+.Section1__Container-Col1 button.active{
+    background-color: #ff8b38;
+}
+/* Column 2*/
+.Container-Col2-Item1{
+    font-size: 15pt;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.Container-Col2-Item2{
+    font-size: 10pt;
+}
+.Container-Col2-Item3{
+    width: 100px;
+    border: none;
+    color: white;
+    background-color: #ff8b38;
+    padding: 10px 0 10px 0;
+    font-size: 12pt;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+.Container-Col2-Item3:hover{
+    opacity: 0.8;
+}
+/* Column 3*/
+.Section1__Container-Col3{
+    width: 100%;
+}
+
+/* Section 2*/
+.Section2{
+    display: flex;
+    margin: 0 150px 0 150px;
+    padding: 150px 0 100px 0;
+    column-gap: 150px;
+}
+.Section2__Col1{
+    width: 100%;
+    height: 300px;
+    flex: 50%;
+    align-items: center;
+    box-shadow: 5px 10px 15px 5px gray;
+}
+.Section2__Col2{
+    flex: 50%;
+}
+.Section2__Col2-Title{
+    font-size: 15pt;
+    font-weight: bold;
+}
+.Section2__Line{
+    width: 70px;
+    border-bottom: 2px solid #ff8b38;
+    margin: 30px 0 30px 0;
+}
+.Section2__Col2-Item{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    margin-top: 35px;
+    row-gap: 30px;
+}
+
+/* Section 3*/
+.Section3{
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    padding: 100px 150px 100px 150px;
+    column-gap: 150px;
+}
+
+/* Section 4*/
+.Section4{
+    padding: 100px 150px 100px 150px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 5%;
+    height: auto;
+}
+.Section4__Title{
+    grid-column: span 3;
+    margin-bottom: 50px;
+}
+.Section4__Title1{
+    font-size: 25pt;
+    text-align: center;
+}
+.Section4__Item{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    row-gap: 15px;
+}
+.Section4__Icon{
+    width: 60px; height: 60px;
+}
+
+/* Section 5*/
+.Section5{
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('Images/background__STYLISH.jpg');
+    padding: 50px 150px 50px 150px;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto;
+}
+.Section5__Title1{
+    font-weight: 200;
+    font-size: 30pt;
+    text-align: center;
+    color: white;
+}
+.Section5__Button{
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    margin-top: 30px;
+    padding: 7px 30px 7px 30px;
+    font-weight: 600;
+}
+.Section5__Button:hover{
+    background-color: #ff8b38;
+    border: 2px solid #ff8b38;
+}
+
+/* Section 6*/
+.Section6{
+    padding: 50px 150px 50px 150px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 10%;
+}
+.Section6__Title{
+    grid-column: span 2;
+}
+.Section6__Left{
+    display: grid;
+    grid-template-columns: auto;
+}
+.Section6__Input-Item{
+    border: none;
+    border-bottom: 1px solid rgb(202, 202, 202);
+    width: 100%;
+    height: 100px;
+    margin: 15px 0 15px 0;
+    font-size: 10pt;
+}
+.Section6__Button{
+    display: flex;
+    justify-content: center;
+    grid-column: span 2;
+}
+.Section6__Button-Item{
+    width: 150px;
+    border: none;
+    color: white;
+    background-color: #ff8b38;
+    padding: 10px 0 10px 0;
+    font-size: 12pt;
+    border-radius: 3px;
+    margin-top: 30px;
+}
+.Section6__Button-Item:hover{
+    opacity: 0.8;
+}
+
+/* Footer */
+.Footer{
+    background-color: black;
+    height: 70px;
+    display: grid;
+    grid-template-columns: 5% 5% 5% 5% 5% 5%;
+    justify-content: center;
+}
+.Footer i{
+    color: white;
+    font-size: 17pt;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.Footer__Copyright{
+    grid-column: span 6;
+    text-align: center;
+    color: white;
+    font-size: 10pt;
+}
+
+/*Menu Mobile*/
+.btn__BarsMobile{
+    display: none;
+}
+.btn__BarsMobile img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.Navbar__Overlay{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.3);
+    display: none;
+}
+.Navbar__Mobile{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    background-color: white;
+    transform: translateX(100%);
+}
+.Navbar__Mobile-list{
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    row-gap: 20px;
+    
+}
+.Navbar__Mobile-Item{
+    color: black;
+    border-bottom: 1px solid gray;
+    font-weight: 700;
+}
+.Navbar__Mobile-Item:hover{
+    text-decoration: none;
+    color: gray;
+}
+.Navbar__Mobile-Close img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.Navbar__Input:checked ~ .Navbar__Overlay{
+    display: block;
+}
+.Navbar__Input:checked ~ .Navbar__Mobile{
+    transform: translateX(0);
+}
+/* Responsive on SmartPhone*/
+@media only screen and (max-width: 740px){
+    .Navbar{
+        padding: 0 20px 0 20px;
+    }
+    .Navbar__Logo{
+        margin-top: 20px;
+    }
+    .Navbar__Menu{
+        display: none;
+    }
+    .btn__BarsMobile{
+        display: block;
+        float: right;
+        margin-top: 20px;
+    }
+    .Header__Container{
+        display: grid;
+        grid-template-columns: 100%;
+        margin: 0 20px 0 20px;
+        padding: 100px 0 100px 0;
+    }
+    .Header__Form{
+        width: 100%;
+        margin-top: 70px;
+    }
+    .Section1__Container{
+        display: grid;
+        grid-template-columns: 30% 60%;
+        gap: 10%;
+        margin: 0 20px 0 20px;
+        padding: 100px 0 100px 0;
+    }
+    .Section1__Container-Col3{
+        grid-column: span 2;
+    }
+    .Section1__Container-Col1{
+        width: 100%;
+    }
+    .Section2{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 20px 0 20px;
+        padding: 50px 0 50px 0;
+        row-gap: 50px;
+    }
+    .Section2__Col1{
+        width: 100%;
+        height: 300px;
+        flex: 100%;
+        align-items: center;
+        box-shadow: 5px 10px 15px 5px gray;
+    }
+    .Section2__Col2{
+        flex: 100%;
+    }
+    .Section3{
+        background-color: #f5f5f5;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px 20px 50px 20px;
+        column-gap: 150px;
+        row-gap: 50px;
+    }
+    .Section4{
+        padding: 50px 20px 30px 20px;
+        display: grid;
+        grid-template-columns: auto;
+        height: 100%;
+        gap: 0;
+    }
+    .Section4__Title{
+        grid-column: auto;
+        margin-bottom: 50px;
+    }
+    .Section4__Item{
+        margin-bottom: 20px;
+    }
+    .Section5{
+        padding: 50px 20px 50px 20px;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .Section6{
+        padding: 50px 20px 50px 20px;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 0;
+    }
+    .Section6__Button{
+        flex: 100%;
+    }
+    .Section6__Title{
+        flex: 100%;
+    }
+    .Section6__Left{
+        flex: 100%;
+    }
+    .Section6__Right{
+        flex: 100%;
+    }
+    .Footer{
+        column-gap: 10px;
+    }
+}
